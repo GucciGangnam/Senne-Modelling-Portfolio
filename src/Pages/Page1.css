@@ -6,6 +6,9 @@
     align-items: center;
     max-width: 2000px;
 
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
 }
 
     .CoverPhoto{ 
