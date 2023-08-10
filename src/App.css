@@ -5,4 +5,7 @@
   width: 100vw;
   align-items: center;
   font-family: Arial, sans-serif;
+  height: 100vh;
+  overflow-y: scroll;
+  
 }
