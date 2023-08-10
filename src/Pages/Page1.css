@@ -4,57 +4,81 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
     overflow-y: hidden;
     max-width: 2000px
 
 }
 
     .CoverPhoto{ 
-        width: 100vw;
-        max-width: 450px;
+        max-height: 65vh;
+
+        /* max-height: 60vh; */
     }
 
     .CoverText{ 
+        height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
-        gap: 1rem;
+        gap: 2rem;
         color: rgb(253, 250, 227);
+        margin-bottom: 20px;
 
     }
 
     .NameText{
         font-size: 50px;
-
     }
 
     .OccupationText{
         letter-spacing: 40px;
-
-
     }
 
     .LocationText{ 
-
     }
 
-    /* @media query.  If screen is over 900px wide, then mike page1 flex : row*/
+/*MEDIA QUERIES*/
 
-
-    @media (min-width: 800px) {
+    @media (orientation: landscape) {
         .Page1 {
             flex-direction: row;
             justify-content: space-evenly;
             align-items: center;
-            max-width: 2000px; /* Reset the max-width for .Page1 */
+            max-width: 2000px; 
         }
         .CoverPhoto{ 
-            max-width: none; /* Reset the max-width for .CoverPhoto */
-            width: 50%;
+            max-width: none; 
+            width: 50%; 
+            max-height: none;
+
         }
         .CoverText{ 
-            max-width: none; /* Reset the max-width for .CoverText */
+            max-width: none;
             width: 50%;
+        }
+    }
+
+    @media (max-height: 700px) {
+        .CoverText{ 
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap: 1rem;
+            color: rgb(253, 250, 227);
+        }
+    
+        .NameText{
+            font-size: 40px;
+        }
+    
+        .OccupationText{
+            letter-spacing: 40px;
+            font-size: smaller;
+        }
+        .LocationText{ 
+            font-size: smaller;
         }
     }
