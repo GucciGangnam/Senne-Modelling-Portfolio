@@ -1,0 +1,60 @@
+.Page1{ 
+    background-color: rgb(72, 80, 59);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    overflow-y: hidden;
+    max-width: 2000px
+
+}
+
+    .CoverPhoto{ 
+        width: 100vw;
+        max-width: 450px;
+    }
+
+    .CoverText{ 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        color: rgb(253, 250, 227);
+
+    }
+
+    .NameText{
+        font-size: 50px;
+
+    }
+
+    .OccupationText{
+        letter-spacing: 40px;
+
+
+    }
+
+    .LocationText{ 
+
+    }
+
+    /* @media query.  If screen is over 900px wide, then mike page1 flex : row*/
+
+
+    @media (min-width: 800px) {
+        .Page1 {
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            max-width: 2000px; /* Reset the max-width for .Page1 */
+        }
+        .CoverPhoto{ 
+            max-width: none; /* Reset the max-width for .CoverPhoto */
+            width: 50%;
+        }
+        .CoverText{ 
+            max-width: none; /* Reset the max-width for .CoverText */
+            width: 50%;
+        }
+    }
