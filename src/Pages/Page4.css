@@ -1,0 +1,31 @@
+.Page4{ 
+    background-color: rgb(72, 80, 59);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    max-width: 2000px;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+    .ContactButton{ 
+        background-color: inherit;
+        border: none;
+        padding: 0px;
+    }
+        .ContactButton:hover{ 
+            box-shadow: 5px 5px 5px 5px black;
+
+        }
+
+
+/* MEDIA QUERIES */
+@media (orientation: landscape) {
+    .Page4 {
+        flex-direction: row;
+    }
+}
