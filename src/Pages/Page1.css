@@ -9,10 +9,12 @@
     scroll-snap-align: start;
     scroll-snap-stop: always;
 
+
 }
 
     .CoverPhoto{ 
         max-height: 65vh;
+
 
         /* max-height: 60vh; */
     }

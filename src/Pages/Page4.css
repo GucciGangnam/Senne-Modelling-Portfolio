@@ -12,15 +12,13 @@
     scroll-snap-stop: always;
 }
 
+
     .ContactButton{ 
         background-color: inherit;
         border: none;
         padding: 0px;
     }
-        .ContactButton:hover{ 
-            box-shadow: 5px 5px 5px 5px black;
 
-        }
 
 
 /* MEDIA QUERIES */

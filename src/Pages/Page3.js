@@ -13,9 +13,6 @@ export const Page3 = () => {
     return (
         <div className="Page3">
 
-            <div> 
-                Bio
-            </div>
 
             <div className='Page3Table'>
 

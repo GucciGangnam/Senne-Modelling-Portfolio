@@ -1,18 +1,21 @@
 .Page3{
     background-color: rgb(72, 80, 59);
     min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
     align-items: center;
     justify-content: center;
     max-width: 2000px;
 
     color: rgb(253, 250, 227);
-    font-size: 1rem;
+    font-size: 1.4rem;
 
     scroll-snap-align: start;
     scroll-snap-stop: always;
+
+    flex-wrap: wrap;
+
 }
 
     .Page3Table{ 
@@ -20,15 +23,21 @@
         grid-template-columns: 1fr 1fr;
         height: 80%;
         gap: 20px;
-        
+        overflow-y: visible;
     }
         .leftCol{
             text-align: center;
-            
-
         }
         .rightCol{
             text-align: center;
-            
-
         }
+
+/* Media query for landscape mode */
+@media screen and (orientation: landscape) {
+    .Page3Table {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .leftCol{
+        color: rgb(187, 138, 78)
+    }
+}
