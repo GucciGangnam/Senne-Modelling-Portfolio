@@ -1,0 +1,96 @@
+.Page23{ 
+
+    min-height: 100vh;
+    max-height: 100vh;
+
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+    position: relative;
+}
+
+.Slide{ 
+display: flex;
+overflow-y: hidden;
+width: 100vw;
+overflow-x: scroll;
+scroll-snap-type: x mandatory;
+
+}
+.SlideDots {
+    position: absolute;
+    left: 50%;
+    bottom: 5%; /* Adjust this value to control the vertical position */
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust background color as needed */
+    padding: 5px 10px;
+    border-radius: 20px; /* Adjust as needed */
+    z-index: 1; /* Ensure dots are above the scrolling content */
+    
+}
+
+.PictureDiv{
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 60%;
+}
+
+.BrandImage{
+    max-width: 60%;
+    max-height: 100%;
+    border-radius: 25px;
+}
+
+.BrandInfoDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+}
+    .BrandName{
+        padding: 10%;
+        font-size: 2rem;
+
+    }
+
+
+
+.InnerSlide1{ 
+    background-color: rgb(217, 181, 149);
+
+    min-width: 100%;
+    height: 100vh;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.InnerSlide2{ 
+    background-color: rgb(100, 81, 72);
+
+    min-width: 100%;
+    height: 100vh;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.InnerSlide3{ 
+    background-color: rgb(119, 100, 63);
+    min-width: 100%;
+    height: 100vh;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+.InnerSlide4{ 
+    min-width: 100%;
+    height: 100vh;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}

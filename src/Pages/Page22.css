@@ -1,4 +1,4 @@
-.Page22{ 
+/* .Page22{ 
 
     min-height: 100vh;
     width: 100vw;
@@ -17,7 +17,7 @@
 }
 
     .Brand1Container{ 
-        /* outline: 1px solid pink; */
+
         width: 100vw;
         height: 30%;
 
@@ -27,7 +27,7 @@
         
     }
         .Brand1Images{ 
-            /* outline: 1px solid green; */
+
             width: 100%;
             height: 80%;
             display: flex;
@@ -38,7 +38,7 @@
         
     }
     .BrandName{ 
-        /* outline: 1px solid orange; */
+
         height: 20%;
         display: flex;
         align-items: center;
@@ -52,4 +52,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
