@@ -19,6 +19,9 @@ export const Page23 = () => {
                         <div className='BrandName'>
                             Brand
                         </div>
+                        <button className='CollectionButton'>
+                            <img className='CollectionImage' src='./Icons/Collection.png'/>
+                        </button>
                     </div>
                 </div>
 
@@ -30,6 +33,9 @@ export const Page23 = () => {
                         <div className='BrandName'>
                             Brand
                         </div>
+                        <button className='CollectionButton'>
+                            <img className='CollectionImage' src='./Icons/Collection.png'/>
+                        </button>
                     </div>
                 </div>
 
@@ -41,6 +47,9 @@ export const Page23 = () => {
                         <div className='BrandName'>
                             Brand
                         </div>
+                        <button className='CollectionButton'>
+                            <img className='CollectionImage' src='./Icons/Collection.png'/>
+                        </button>
                     </div>
                 </div>
 
@@ -52,6 +61,10 @@ export const Page23 = () => {
                         <div className='BrandName'>
                             Brand
                         </div>
+                        <button className='CollectionButton'>
+                            <img className='CollectionImage' src='./Icons/Collection.png'/>
+                        </button>
+                        
                     </div>
                 </div>
                 
