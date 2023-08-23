@@ -126,7 +126,7 @@ export const Page23 = () => {
 
                 <div className='InnerSlide1'>
                     <div className='PictureDiv'>
-                        <img className='BrandImage' src='./Images/BrandA2.jpg' alt='Brand Image'/>
+                        <img className='BrandImage' src='./Images/BrandA2.JPG' alt='Brand Image'/>
                     </div>
                     <div className='BrandInfoDiv'>
                         <div className='BrandName1'>
