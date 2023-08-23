@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Senne-Modelling-Portfolio/static/css/main.0b2fe4d6.css",
+    "main.js": "/Senne-Modelling-Portfolio/static/js/main.4ed54dec.js",
+    "static/js/787.0f68ab88.chunk.js": "/Senne-Modelling-Portfolio/static/js/787.0f68ab88.chunk.js",
+    "index.html": "/Senne-Modelling-Portfolio/index.html",
+    "main.0b2fe4d6.css.map": "/Senne-Modelling-Portfolio/static/css/main.0b2fe4d6.css.map",
+    "main.4ed54dec.js.map": "/Senne-Modelling-Portfolio/static/js/main.4ed54dec.js.map",
+    "787.0f68ab88.chunk.js.map": "/Senne-Modelling-Portfolio/static/js/787.0f68ab88.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b2fe4d6.css",
+    "static/js/main.4ed54dec.js"
+  ]
+}
