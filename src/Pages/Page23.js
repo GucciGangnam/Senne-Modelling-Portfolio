@@ -74,7 +74,7 @@ export const Page23 = () => {
             <img className='CollectionPhoto' src='./Images/BrandA2.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandA3.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandA6.jpg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandA2.jpg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandA5.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandA3.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandA6.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandA2.jpg' alt='Brand Image'/>
@@ -86,10 +86,10 @@ export const Page23 = () => {
             <img className='CollectionPhoto' src='./Images/BrandB3.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandB5.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandB8.jpeg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandB3.jpg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandB5.jpg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandB8.jpeg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandB3.jpg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandB2.jpg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandB4.jpg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandB7.jpeg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandB6.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandB5.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandB8.jpeg' alt='Brand Image'/>
             </div>
@@ -98,11 +98,11 @@ export const Page23 = () => {
             <img className='CollectionPhoto' src='./Images/BrandC1.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandC2.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandC3.jpg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandC1.jpg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandC6.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandC2.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandC3.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandC1.jpg' alt='Brand Image'/>
-            <img className='CollectionPhoto' src='./Images/BrandC2.jpg' alt='Brand Image'/>
+            <img className='CollectionPhoto' src='./Images/BrandC6.jpg' alt='Brand Image'/>
             <img className='CollectionPhoto' src='./Images/BrandC3.jpg' alt='Brand Image'/>
             </div>
 

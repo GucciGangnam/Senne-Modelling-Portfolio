@@ -13,7 +13,6 @@ export const Page3 = () => {
     return (
         <div className="Page3">
 
-
             <div className='Page3Table'>
 
                 <div className='leftCol'>Gender</div>

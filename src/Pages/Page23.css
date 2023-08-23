@@ -40,12 +40,11 @@ scroll-snap-type: x mandatory;
     transition: 500ms;
 }
 .SlideDots.open{ 
-    outline: 1px solid rgba(255, 255, 255, 0.35);
-    background-color: rgba(255, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.35);
     width: 20%;
+    color: white;
 }
 .SlideDots.open:hover{ 
-    background-color: rgba(255, 0, 0, 0.5);
     cursor: pointer;
     width: 20%;
 }
