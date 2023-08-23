@@ -1,7 +1,10 @@
 .Page23{ 
-
+    background-color: rgb(72, 80, 59);
     min-height: 100vh;
     max-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 
 
     scroll-snap-align: start;
@@ -32,7 +35,19 @@ scroll-snap-type: x mandatory;
     padding: 5px 10px;
     border-radius: 20px; /* Adjust as needed */
     z-index: 1; /* Ensure dots are above the scrolling content */
-    
+    width: 10%;
+
+    transition: 500ms;
+}
+.SlideDots.open{ 
+    outline: 1px solid rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 0, 0, 0.35);
+    width: 20%;
+}
+.SlideDots.open:hover{ 
+    background-color: rgba(255, 0, 0, 0.5);
+    cursor: pointer;
+    width: 20%;
 }
 
 .PictureDiv{
@@ -58,11 +73,26 @@ scroll-snap-type: x mandatory;
     gap: 10%;
     height: 40%;
 }
-    .BrandName{
-
+    .BrandName1{
+        font-family: "Montserrat", sans-serif;
         margin-top: 10%;
-        font-size: 2rem;
-        font-weight: bold;
+        font-size: 1.3rem;
+        color: rgb(116, 61, 20);
+    }
+    .BrandName2{
+        margin-top: 10%;
+        font-size: 1.5rem;
+        color: rgb(116, 61, 20);
+    }
+    .BrandName3{
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 10%;
+        font-size: 1.3rem;
+        color: rgb(116, 61, 20);
+    }
+    .BrandName4{
+        margin-top: 10%;
+        font-size: 1.3rem;
         color: rgb(116, 61, 20);
     }
     .CollectionButton{ 
@@ -77,12 +107,19 @@ scroll-snap-type: x mandatory;
         outline: none;
         text-align: left;
         text-decoration: none;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
         .CollectionButton:hover{ 
             
         }
     .CollectionImage{
         width: 40px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
     }
     .CollectionImage:hover{ 
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
@@ -122,4 +159,71 @@ scroll-snap-type: x mandatory;
 
     scroll-snap-align: start;
     scroll-snap-stop: always;
+}
+
+/* OVERLAYS */
+
+.Overlay1, .Overlay2, .Overlay3, .Overlay4{
+    display: none;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px; /* Gap between images */
+
+    position: absolute;
+    z-index: 1;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    width: 90vw;
+    height: 93vh;
+
+    overflow: hidden;
+    overflow-y: scroll;
+
+
+    /* Center the grid items */
+    place-items: center;
+}
+
+.CollectionPhoto {
+    max-width: 90%; /* Ensure images don't exceed their container */
+    max-height: 90%; /* Maintain aspect ratio */
+}
+
+/* MEDIA QUERIES FOR LANDSCAE */
+
+@media (orientation: landscape) {
+    .InnerSlide1, .InnerSlide2, .InnerSlide3, .InnerSlide4{ 
+
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .PictureDiv{
+
+        width: 50%;
+        place-items: center;
+
+        
+    }
+        .BrandImage{ 
+            transform: scale(1.5);
+            margin-bottom: 7vh;
+        }
+
+
+    .BrandInfoDiv{ 
+
+        width: 70%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .BrandName1, .BrandName2, .BrandName3, .BrandName4{ 
+            margin: 0%;
+        }
 }
